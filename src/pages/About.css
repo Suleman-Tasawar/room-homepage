@@ -21,3 +21,9 @@ article > p{
     font-size: 1.2rem;
     color: var(--dark-gray);
 }
+@media screen and (max-width:768px) {
+    article{
+        padding: 2rem 4rem;
+        width: 80%;
+    }
+}

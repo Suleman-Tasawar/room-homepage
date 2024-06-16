@@ -7,11 +7,18 @@ import "./hero.css"
 const Hero = () => {
     const [pageData,setPageData] = useState(0)
 
+    const nextPage = ()=>{
+            setPageData((prev)=>prev + 1)
+    }
+
+    const prevPage = ()=>{
+            setPageData((prev)=>prev - 1)
+    }
   return (
     <section>
         <Header/>
         <div className='hero__img'>
-            <img src={data[pageData].imgUrl}/>
+            <img src={data[pageData].imgUrl} alt='Images of furniture'/>
         </div>
         <div className='hero__text'>
             <h1 className='margin__top__2'>{data[pageData].title}</h1>
@@ -20,10 +27,10 @@ const Hero = () => {
             <Button className = 'margin__top__2'/>
         </div>
         <div className='slider'>
-            <button onClick={(prev)=>prev - 1}>
+            <button onClick={prevPage}>
             <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fillRule="evenodd"/></svg>
             </button>
-            <button onClick={(prev)=>prev + 1}>
+            <button onClick={nextPage}>
             <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fillRule="evenodd"/></svg>
             </button>
         </div>
