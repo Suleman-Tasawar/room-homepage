@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+}
+.nav__links > ul{
+    display: flex;
+}
+.nav__links > ul>li{
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}

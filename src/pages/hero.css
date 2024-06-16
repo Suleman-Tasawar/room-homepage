@@ -1,0 +1,55 @@
+.margin__top__2{
+    margin-top: 1.5rem;
+}
+
+section{
+    background-color: var(--color-white);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: var(--color-white);
+}
+
+.hero__text{
+    padding: 7rem;
+}
+
+.hero__text > h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: var(--color-black);
+}
+
+.hero__text > p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--dark-gray);
+}
+
+button{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.slider{
+    padding: 0.3rem;
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 62%;
+    width: 100px;
+    height: 80px;
+}
+
+.slider > button:nth-of-type(1){
+    background-color: var(--color-black);
+}
+.slider > button:nth-of-type(2){
+    background-color: var(--very-darkGray);
+}
