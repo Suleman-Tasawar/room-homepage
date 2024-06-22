@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section>
         <div className='about__img'>
-            <img src={`${process.env.PUBLIC_URL}/images/image-about-dark.jpg`} alt='About Us Image'/>
+            <img src={`${process.env.PUBLIC_URL}/images/image-about-dark.jpg`} alt='About Us'/>
         </div>
         <article>
           <h1>
@@ -18,7 +18,7 @@ const About = () => {
           </p>
         </article>
         <div className='about__img'>
-        <img src={`${process.env.PUBLIC_URL}/images/image-about-light.jpg`} alt='About Us Image'/>
+        <img src={`${process.env.PUBLIC_URL}/images/image-about-light.jpg`} alt='About Us'/>
         </div>
     </section>
   )

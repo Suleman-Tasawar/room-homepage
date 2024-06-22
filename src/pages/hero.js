@@ -18,7 +18,7 @@ const Hero = () => {
     <section>
         <Header/>
         <div className='hero__img'>
-            <img src={data[pageData].imgUrl} alt='Images of furniture'/>
+            <img src={data[pageData].imgUrl} alt='furniture'/>
         </div>
         <div className='hero__text'>
             <h1 className='margin__top__2'>{data[pageData].title}</h1>

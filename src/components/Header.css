@@ -34,11 +34,9 @@ header{
     font-weight: 600;
 }
 
-a{
+li{
     color: var(--color-white);
     text-decoration: none;
-}
-li{
     list-style-type: none;
 }
 
@@ -63,10 +61,10 @@ li{
     .hamburger{
         display: block;
     }
-    a{
+    header li{
         color: var(--color-black);
     }
-    a:hover{
+    header li:hover{
         transition: all 0.3ms;
         color: var(--dark-gray);
     }
