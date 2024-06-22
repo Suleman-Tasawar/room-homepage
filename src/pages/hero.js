@@ -15,7 +15,7 @@ const Hero = () => {
             setPageData((prev)=>prev - 1)
     }
   return (
-    <section>
+    <section id='hero'>
         <Header/>
         <div className='hero__img'>
             <img src={data[pageData].imgUrl} alt='furniture'/>

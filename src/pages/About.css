@@ -1,4 +1,6 @@
 section{
+    margin: 1rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +11,13 @@ article{
     width: 40%;
 }
 
+.about__1,.about__2{
+    width: 30%;
+}
+.about__1> img,
+.about__2>img{
+    width: 100%;
+}
 article > h1{
     font-size: 1.7rem;
     font-weight: 600;

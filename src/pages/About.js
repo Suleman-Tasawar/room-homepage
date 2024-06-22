@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section>
-        <div className='about__img'>
+        <div className='about__img about__1'>
             <img src={`${process.env.PUBLIC_URL}/images/image-about-dark.jpg`} alt='About Us'/>
         </div>
         <article>
@@ -17,7 +17,7 @@ const About = () => {
             or anything in between. Product specialists are available to help you create your dream space.  
           </p>
         </article>
-        <div className='about__img'>
+        <div className='about__img about__2'>
         <img src={`${process.env.PUBLIC_URL}/images/image-about-light.jpg`} alt='About Us'/>
         </div>
     </section>
