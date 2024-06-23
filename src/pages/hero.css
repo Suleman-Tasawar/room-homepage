@@ -19,7 +19,7 @@ header{
 
 .hero__img{
     width: 60%;
-    height: 450px;
+    height: auto;
 }
 .hero__img > img{
     width: 100%;
@@ -27,7 +27,7 @@ header{
 
 .hero__text{
     width: 40%;
-    padding: 5rem;
+    padding: 0 3rem;
 }
 
 .hero__text > h1{
@@ -54,7 +54,7 @@ button{
     top: 85%;
     left: 53%;
     width: 100px;
-    height: 80px;
+    height: 100px;
 }
 
 .slider > button:nth-of-type(1){
@@ -85,29 +85,35 @@ button{
     }
     .hero__text{
         width: 100%;
-        padding: 2rem;
+        padding:  2.5rem;
     }
     
     
     .slider{
-        top: 48%;
+        top: 55%;
         left: 63%;
     }
 
 }
-@media screen and (max-width:900px) {
+@media screen and (min-width:769px) and (max-width:900px) {
     #hero{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
     .hero__img{
-        width: 70%;
+        width: 100%;
     }
     .hero__text{
-        width: 30%;
-        margin-left: 2rem;
-        padding: 0rem;
+        margin-top: 10vh;
+        width: 100%;
+        margin-left: 0rem;
+        padding: 1rem;
+    }
+        
+    .slider{
+        top: 65%;
+        left: 63%;
     }
 
 }

@@ -1,5 +1,5 @@
 section{
-    margin: 1rem;
+    overflow: hidden;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,6 +31,17 @@ article > p{
 @media screen and (max-width:768px) {
     article{
         padding: 2rem 4rem;
-        width: 80%;
+        width: 100%;
+    }
+        
+    .about__1,.about__2{
+        width: 100%;
+    }
+    .about__1> img,
+    .about__2>img{
+        width: 100%;
+    }
+    section{
+        flex-direction: column;
     }
 }
